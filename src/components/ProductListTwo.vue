@@ -20,7 +20,7 @@ export default {
     },
     methods: {
         minusPrice() {
-            this.$store.commit('minusPrice', 2);
+            this.$store.commit('minusPrice', 3);
         }
     }
 }
