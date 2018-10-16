@@ -18,7 +18,7 @@ const store = new Vuex.Store({
       let saleProducts = state.products.map( product => {
         return {
           name: product.name,
-          price: product.price / 2
+          price: product.price / 10
         }
       })
       return saleProducts;
