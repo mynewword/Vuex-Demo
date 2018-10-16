@@ -7,10 +7,10 @@ Vue.use( Vuex )
 const store = new Vuex.Store({
   state:{
     products: [
-      {name: '鼠标', price: 20},
+      {name: '鼠标', price: 10},
       {name: '键盘', price: 40},
       {name: '耳机', price: 60},
-      {name: '显示屏', price: 80}
+      {name: '显示屏', price: 110}
     ]
   }
 })
